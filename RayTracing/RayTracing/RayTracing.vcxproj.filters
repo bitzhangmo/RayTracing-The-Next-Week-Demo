@@ -19,6 +19,9 @@
     <Filter Include="源文件\Chapter2">
       <UniqueIdentifier>{1774aa41-5fca-433f-adf0-cd714ba3b076}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Chapter3">
+      <UniqueIdentifier>{bbb23a5c-d3ba-42c7-9559-40a5338de9e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -26,6 +29,9 @@
     </ClInclude>
     <ClInclude Include="vec3.h">
       <Filter>源文件\Chapter2</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>源文件\Chapter3</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -35,8 +41,11 @@
     <ClCompile Include="RayTracing.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="FirstPicture_1.cpp">
-      <Filter>源文件\Chapter1</Filter>
+    <ClCompile Include="FirstPicture_2.cpp">
+      <Filter>源文件\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture_2.cpp">
+      <Filter>源文件\Chapter3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

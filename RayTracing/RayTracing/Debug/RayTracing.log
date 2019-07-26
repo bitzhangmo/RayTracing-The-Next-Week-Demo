@@ -1,3 +1,7 @@
-﻿  RayTracing.cpp
-i:\raytracingthenextweek\raytracing\raytracing\raytracing.cpp(19): warning C4305: “初始化”: 从“double”到“float”截断
+﻿  FirstPicture_2.cpp
+i:\raytracingthenextweek\raytracing\raytracing\vec3.h(60): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+i:\raytracingthenextweek\raytracing\raytracing\vec3.h(155): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+i:\raytracingthenextweek\raytracing\raytracing\firstpicture_2.cpp(12): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+i:\raytracingthenextweek\raytracing\raytracing\firstpicture_2.cpp(13): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+i:\raytracingthenextweek\raytracing\raytracing\firstpicture_2.cpp(13): warning C4305: “参数”: 从“double”到“float”截断
   RayTracing.vcxproj -> I:\RayTracingTheNextWeek\RayTracing\Debug\RayTracing.exe

@@ -43,3 +43,10 @@ int main()
 ![1564110976196](C:\Users\mosswang\AppData\Roaming\Typora\typora-user-images\1564110976196.png)
 
 ### Chapter2：
+
+重载了一组关于vec3的运算符。
+
+### Chapter3：
+
+定义了射线类，并定义了三个函数，分别返回原点、方向以及射线本身。
+
