@@ -22,6 +22,33 @@
     <Filter Include="源文件\Chapter3">
       <UniqueIdentifier>{bbb23a5c-d3ba-42c7-9559-40a5338de9e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Chapter4">
+      <UniqueIdentifier>{93791bfb-e118-4e05-b440-f5df327ddf38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chapter5">
+      <UniqueIdentifier>{256fd2c3-2509-41b4-a165-6b6291338fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chapter6">
+      <UniqueIdentifier>{46e91aec-1c9b-4ddc-bb9b-260630c2098c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chapter7">
+      <UniqueIdentifier>{29bcae40-c883-49b3-ab17-03e8784ad9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chapter8">
+      <UniqueIdentifier>{dae2d208-6118-45eb-8170-bd2855eeb01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chapter9">
+      <UniqueIdentifier>{68ab58c7-bc64-463a-9b4a-66b1c55f2431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chapter10">
+      <UniqueIdentifier>{2e8f1ca7-b9d0-4d4f-934c-a8c80c467c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chapter11">
+      <UniqueIdentifier>{6003c746-94fd-4171-9f07-59497da4708e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Chapter12">
+      <UniqueIdentifier>{033d5107-ad73-43a4-9e67-38bc0971d74e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -33,6 +60,30 @@
     <ClInclude Include="ray.h">
       <Filter>源文件\Chapter3</Filter>
     </ClInclude>
+    <ClInclude Include="hitable.h">
+      <Filter>源文件\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>源文件\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="hitable_list.h">
+      <Filter>源文件\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>源文件\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>源文件\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="lambertian.h">
+      <Filter>源文件\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="metal.h">
+      <Filter>源文件\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="dielectrics.h">
+      <Filter>源文件\Chapter9</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -41,11 +92,8 @@
     <ClCompile Include="RayTracing.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="FirstPicture_2.cpp">
-      <Filter>源文件\Chapter2</Filter>
-    </ClCompile>
-    <ClCompile Include="Picture_2.cpp">
-      <Filter>源文件\Chapter3</Filter>
+    <ClCompile Include="Chapter_12.cpp">
+      <Filter>源文件\Chapter12</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
