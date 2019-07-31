@@ -82,9 +82,9 @@ hitable *random_scene()
 
 int main()
 {
-	int nx = 800;
-	int ny = 600;
-	int ns = 10;
+	int nx = 2000;
+	int ny = 1000;
+	int ns = 100;
 	ofstream outfile(".\\result\\Picture_12.txt", ios_base::out);
 	outfile << "P3\n" << nx << " " << ny << "\n255\n";
 	
