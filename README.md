@@ -185,3 +185,9 @@ vec3 color(const ray& r, hitable *world)
 
 ### Chapter10：Positionable camera
 
+---
+
+### Chapter1：Motion Blur 动态模糊
+
+
+
