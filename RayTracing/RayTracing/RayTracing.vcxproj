@@ -164,6 +164,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="ray.h" />
     <ClInclude Include="sphere.h" />
+    <ClInclude Include="texture.h" />
     <ClInclude Include="vec3.h" />
   </ItemGroup>
   <ItemGroup>
@@ -173,7 +174,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Picture_2_1.cpp" />
+    <ClCompile Include="Picture_2_2.cpp" />
     <ClCompile Include="RayTracing.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

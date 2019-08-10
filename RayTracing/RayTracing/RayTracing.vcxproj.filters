@@ -58,6 +58,9 @@
     <Filter Include="源文件\Book2\Chapter1">
       <UniqueIdentifier>{1e7a83d6-e5ef-44b8-a52b-9ad496e65f25}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Book2\Chapter2">
+      <UniqueIdentifier>{452f6e3d-d33d-47a4-9dbb-c84ccfa9505d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -102,6 +105,9 @@
     <ClInclude Include="bvhnode.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -110,8 +116,8 @@
     <ClCompile Include="RayTracing.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Picture_2_1.cpp">
-      <Filter>源文件\Book2\Chapter1</Filter>
+    <ClCompile Include="Picture_2_2.cpp">
+      <Filter>源文件\Book2\Chapter2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
