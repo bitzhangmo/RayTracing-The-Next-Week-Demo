@@ -96,6 +96,12 @@
     <ClInclude Include="moving_sphere.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="aabb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bvhnode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">

@@ -151,6 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="aabb.h" />
+    <ClInclude Include="bvhnode.h" />
     <ClInclude Include="camera.h" />
     <ClInclude Include="dielectrics.h" />
     <ClInclude Include="hitable.h" />
